@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Jost:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400&family=Open+Sans:wght@300;400;500;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30%;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.logo img{
+    max-width: 120px;
+    height: auto; 
+  
+}
+
+.navmenu {
+display: flex;
+}
+.navmenu a{
+    color: #41B0DE;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+    text-decoration: none;
+
+
+}
+.navmenu a:hover{
+    color: black;
+}
+.nav-icon{
+    display:flex ;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #41B0DE;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color:black ;
+}
+#menu-icon {
+    font-size: 35px;
+    color: #41B0DE;
+    z-index: 10001;
+    cursor: pointer;
+    padding-left: 40px;
+}
+/*sticky header*/
+header.sticky{
+    background-color: white;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 /10);
+}
+/*SHOp-SECTION*/
+.sidebar-title{
+    color: rgb(235, 164, 32);
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+.sidebar-list{
+    color: #41B0DE;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+.sidebar-list:hover{
+    color: orange;
+    transform: scale(0.9);
+
+}
+.sidebar-text{
+    color: black;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.page-selection mastheader2{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.mastheader2{
+    background-image: url("/images2/IMG-20230513-WA0009.jpg");
+    background-position: 50% -26px;
+    background-color: white;
+    padding: 200px;
+   
+}
+.mast-container h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.mast-container p{
+    font-size: 30px;
+}
+.link-menu{
+    text-decoration: none;
+    color: #219AD5;
+}
+.blog-form{
+    background-color:rgb(246, 239, 227);
+    padding: 50px ;
+    height: 1000px;
+     
+    
+}
+
+.card-body text-center{
+    border-color: black;
+    border: 20px;
+}
+.list-icon{
+    color: #219AD5;
+
+}
+.card .tags {
+ color: #219AD5;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card .tags:hover {
+    color: orange;
+}
+.product-list {
+    color: #242424;
+
+}
+.product-list:hover{
+    color: #219AD5;
+}
+
+.row .btn-success{
+	background-color:  #219AD5;
+	border-color:  #219AD5;
+	color: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.row .btn-success:hover{
+	background-color: #242424;
+	border-color: #242424;
+	color: #fff;
+}
+
+.card-title{
+    color: #219AD5;
+    font-family: 'Jost', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+.card .card-text {
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: orange;
+    
+}
+.product-image{
+    width: 200px;
+    height: 200px;
+    transition: all .40s;
+   
+}
+
+.page-section{
+    padding: 8rem 0;
+    
+}
+
+.product-image:hover{
+    transform: scale(0.9);
+}
+.button-text{
+	font-family: 'jost',sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+
+.col{
+    font-size: 20px;
+}
+.form-control{
+    font-size: 20px;
+    font-weight: 400;
+}
+.row{
+    padding-left: 5%;
+}
+/*footer*/
+.footer {
+    background-color:  rgb(240, 236, 236);
+    padding-top: 5%;
+ 
+ }
+ .container{
+    padding-bottom: 10%;
+ }
+
+.container h3 {
+    font-size: 20px;
+    color: #41B0DE;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+.container ul li a {
+     font-size: 15px;
+      text-transform: capitalize;
+      text-decoration: none;
+       color: black;
+        font-weight: 600;
+        font-size: 15px;
+        display: block;
+     }
+     .container ul li a:hover{
+        color: #41B0DE;
+        padding-left: 10px;
+     }
+     
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+        gap: 3rem;
+
+    }
+    
+    
+    
+    .container img{
+        height: auto;
+        width: 140px;
+
+    }
+    .container p{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .container .social-links a{
+        display: inline-block;
+        height: 35px;
+        width: 35px;
+        background-color:   rgb(240, 236, 236);
+        margin: 0 3px 3px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #41B0DE;
+        transition: all .42s;
+        
+     }
+     ul {
+        list-style: none;
+     }
+     .container .social-links a:hover{
+        color: black;
+        background-color:   rgb(240, 236, 236);
+        transform: scale(1.1);
+     }
+     input[ type='email']{
+        width: 100%;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-top: 1.1em;
+        display: inline-block;
+        background-color: white;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border-color: black;
+        
+     }
+     input[type='email']:focus{
+        background-color: lavender;
+        outline: none;}
+
+        .register{
+            background-color: #41B0DE;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin: auto;
+            width: 50%;
+            margin-top: 2px;
+            transition: all .42s;
+         }
+        
+         .register:hover{
+            background-color: white;
+            color: #41B0DE;}
+
+ /* copyright*/
+.copyright{
+    background-color: white;
+    text-align: center;
+    font-size: 5px;
+    font-weight: 200;
+    margin: 15px 0 15px ;
+    text-transform: capitalize;
+     
+}
+
+
+/*Responsive*/
+
+@media(max-width:890px){
+    header{
+        padding: 20px 3%;
+        transition: .4s;
+    }
+}
+@media(max-width:630){
+    .main-text h1{
+        font-size: 50px;
+        transition: .4s;
+    }
+    .main-text p{
+        font-size: 18px;
+        transition: .4s;
+    }
+    .main.btn{
+        padding: 10px 20px;
+        transition: .4s;
+    }
+}
+
+@media(max-width:750px){
+    .navmenu{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 90px;
+        height:130vh;
+        background-color: #edffed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 120px 90px;
+        transition: all .42s;
+    }
+}
+.navmenu a{
+    display: block;
+    margin: 10px 0;
+}
+.navmenu.open{
+    right: 0;
+    
+}
